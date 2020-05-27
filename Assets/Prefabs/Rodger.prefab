@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 6080888486889064655}
   - component: {fileID: 6080888486889064652}
   - component: {fileID: 114715116531250500}
+  - component: {fileID: 114297654469131836}
+  - component: {fileID: 58699504254782364}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Rodger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,5 +94,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd15dbbe66a1924fb17e61695721fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 11400000, guid: a8908dd5ecc268e438f4911c5c7d83aa, type: 2}
-  moveSpeed: 2
+--- !u!114 &114297654469131836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080888486889064653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c303725fa91e647b5a2d13efda50fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+--- !u!58 &58699504254782364
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080888486889064653}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000011920929, y: -0.06526324}
+  serializedVersion: 2
+  m_Radius: 0.34040642
